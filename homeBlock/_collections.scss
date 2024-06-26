@@ -39,3 +39,14 @@
     color: #333d4b;
   }
 }
+
+@media only screen and (max-width: 450px) {
+  .collection {
+    margin-top: 100px;
+    flex-direction: column;
+    gap: 0;
+    &__card {
+      margin-top: 100px;
+    }
+  }
+}

@@ -73,8 +73,6 @@
     color: #fefcf7;
   }
   &__subtext {
-
-
     font-family: "Barlow";
     font-style: normal;
     font-weight: 400;
@@ -85,8 +83,36 @@
 
     color: #fefcf7;
   }
+}
 
-  &__discribtion{
-    color:red;
-    font-size: 20px;
+@media only screen and (max-width: 450px) {
+  .choose {
+    height: 900px;
+    padding: 20px 0;
+    justify-content: start;
+
+    &__cards {
+      flex-direction: column;
+      top: 300px;
+    }
+    &__card{
+      width: 300px;
+    }
+    &__title {
+      /* Why choose us? */
+
+      font-family: "Fraunces 9pt";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 28px;
+      line-height: 28px;
+      /* identical to box height, or 100% */
+      text-align: center;
+
+      color: #fefcf7;
+    }
+    &__text {
+      width: 90%;
+    }
+  }
 }

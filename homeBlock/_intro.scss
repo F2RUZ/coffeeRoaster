@@ -40,3 +40,36 @@
     margin-top: 30px;
   }
 }
+
+@media only screen and (max-width: 450px) {
+  .intro {
+    padding: 60px 50px;
+    background-position: center;
+    border-radius: 20px;
+    &__left {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    &__title {
+      width: 280px;
+      /* Great coffee made si */
+
+      font-size: 40px;
+      line-height: 40px;
+      text-align: center;
+
+      color: #fefcf7;
+    }
+    &__text {
+      /* Start your mornings */
+      width: 280px;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+      /* or 167% */
+      text-align: center;
+    }
+  }
+}
