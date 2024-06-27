@@ -17,4 +17,14 @@
   text-align: center;
   color: #fefcf7;
   border: none;
+  transition: all 0.3s linear;
+  &:hover {
+    background: #3cb2ae;
+  }
+  &:active{
+    background: #a0efec;
+
+  }
 }
+
+

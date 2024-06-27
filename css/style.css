@@ -1,4 +1,4 @@
-.intro__btn {
+.works__btn, .intro__btn {
   width: 217px;
   height: 56px;
   background: #66d2cf;
@@ -11,6 +11,13 @@
   text-align: center;
   color: #fefcf7;
   border: none;
+  transition: all 0.3s linear;
+}
+.works__btn:hover, .intro__btn:hover {
+  background: #3cb2ae;
+}
+.works__btn:active, .intro__btn:active {
+  background: #a0efec;
 }
 
 .navbar {
@@ -311,5 +318,103 @@ a {
   }
   .choose__text {
     width: 90%;
+  }
+}
+.works {
+  margin-top: 500px;
+}
+.works__maintitle {
+  /* How it works */
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  color: #83888f;
+}
+.works__sircle {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+.works__box {
+  width: 60px;
+  height: 60px;
+  border: 1px solid green;
+  border-radius: 50%;
+}
+.works__hr {
+  width: 600px;
+}
+.works__cards {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  gap: 380px;
+}
+.works__title {
+  /* 01 */
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  /* identical to box height, or 100% */
+  color: #fdd6ba;
+}
+.works__subtitle {
+  /* Pick your coffee */
+  width: 250px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  /* or 112% */
+  color: #333d4b;
+}
+.works__text {
+  /* Select from our evol */
+  margin-top: 30px;
+  width: 285px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #333d4b;
+}
+.works__btn {
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 450px) {
+  .works {
+    margin-top: 800px;
+  }
+  .works__sircle {
+    display: none;
+  }
+  .works__maintitle {
+    text-align: center;
+  }
+  .works__cards {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .works__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .works__text, .works__title, .works__subtitle {
+    text-align: center;
+  }
+  .works__btn {
+    margin-top: 50px;
+    margin-left: 90px;
   }
 }/*# sourceMappingURL=style.css.map */
