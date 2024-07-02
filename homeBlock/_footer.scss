@@ -43,21 +43,29 @@ path:hover {
   fill: #fdd6ba;
 }
 
-@media only screen and (max-width: 450px) {
-  .footer {
+// @media only screen and (max-width: 450px) {
+//   .footer {
+//     flex-direction: column;
+//     gap: 50px;
+//     &__logo {
+//       width: 220px;
+//     }
+//     &__list {
+//       flex-direction: column;
+//       width: 200px;
+//       gap: 20px;
+//     }
+
+//     &__link {
+//       text-align: center !important;
+//     }
+//   }
+// }
+
+
+@media only screen and (max-width:768px){
+  .footer{
     flex-direction: column;
     gap: 50px;
-    &__logo {
-      width: 220px;
-    }
-    &__list {
-      flex-direction: column;
-      width: 200px;
-      gap: 20px;
-    }
-
-    &__link {
-      text-align: center !important;
-    }
   }
 }

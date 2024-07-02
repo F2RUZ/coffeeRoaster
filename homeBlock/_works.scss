@@ -84,34 +84,60 @@
   }
 }
 
-@media only screen and (max-width: 450px) {
-  .works {
-    margin-top: 800px;
-    &__sircle {
-      display: none;
-    }
-    &__maintitle {
-      text-align: center;
-    }
-    &__cards {
-      flex-direction: column;
-      gap: 50px;
-    }
-    &__card {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-    }
-    &__text,
-    &__title,
-    &__subtitle {
-      text-align: center;
-    }
+// @media only screen and (max-width: 450px) {
+//   .works {
+//     margin-top: 800px;
+//     &__sircle {
+//       display: none;
+//     }
+//     &__maintitle {
+//       text-align: center;
+//     }
+//     &__cards {
+//       flex-direction: column;
+//       gap: 50px;
+//     }
+//     &__card {
+//       display: flex;
+//       align-items: center;
+//       justify-content: center;
+//       flex-direction: column;
+//     }
+//     &__text,
+//     &__title,
+//     &__subtitle {
+//       text-align: center;
+//     }
 
-    &__btn {
-      margin-top: 50px;
-      margin-left: 80px;
+//     &__btn {
+//       margin-top: 50px;
+//       margin-left: 80px;
+//     }
+//   }
+// }
+
+@media only screen and (max-width: 768px) {
+  .works {
+    &__cards {
+      gap: 20px;
+      align-items: start;
+    }
+    &__hr {
+      width: 200px;
+    }
+    &__text {
+      width: 223px;
+    }
+    &__subtitle {
+      /* Pick your coffee */
+      width: 200px;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 28px;
+    }
+    &__box {
+      width: 30px;
+      height: 30px;
     }
   }
 }
