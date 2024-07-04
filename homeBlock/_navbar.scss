@@ -44,6 +44,17 @@
   }
 }
 
+
+
+
+
+
+// @media only screen and (max-width:768px){
+//   .navbar{
+
+//   }
+// }
+
 @media only screen and (max-width: 768px) {
   .navbar {
     &__list {
@@ -57,12 +68,3 @@
     }
   }
 }
-
-
-
-
-// @media only screen and (max-width:768px){
-//   .navbar{
-
-//   }
-// }

@@ -136,20 +136,34 @@ a {
   margin-top: 30px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 450px) {
   .intro {
+    padding: 60px 50px;
     background-position: center;
     border-radius: 20px;
   }
+  .intro__left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   .intro__title {
+    width: 280px;
     /* Great coffee made si */
-    width: 330px;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 48px;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fefcf7;
   }
   .intro__text {
-    width: 400px;
+    /* Start your mornings */
+    width: 280px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    text-align: center;
   }
 }
 .collection {
@@ -191,13 +205,13 @@ a {
   color: #333d4b;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 450px) {
   .collection {
+    margin-top: 100px;
     flex-direction: column;
     gap: 0;
   }
   .collection__card {
-    flex-direction: row;
     margin-top: 100px;
   }
 }
@@ -279,27 +293,32 @@ a {
   color: #fefcf7;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 450px) {
+  .choose {
+    height: 900px;
+    padding: 20px 0;
+    justify-content: start;
+  }
   .choose__cards {
     flex-direction: column;
+    top: 300px;
   }
   .choose__card {
-    box-sizing: border-box;
-    padding: 20px;
-    flex-direction: row;
-    gap: 50px;
-    justify-content: space-around;
+    width: 300px;
+  }
+  .choose__title {
+    /* Why choose us? */
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 28px;
+    /* identical to box height, or 100% */
+    text-align: center;
+    color: #fefcf7;
+  }
+  .choose__text {
     width: 90%;
-    height: 180px;
-    text-align: start;
-  }
-  .choose__box {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-  }
-  .choose__subtext {
-    text-align: start;
   }
 }
 .works {
@@ -395,6 +414,34 @@ a {
     height: 30px;
   }
 }
+@media only screen and (max-width: 450px) {
+  .works {
+    margin-top: 800px;
+  }
+  .works__sircle {
+    display: none;
+  }
+  .works__maintitle {
+    text-align: center;
+  }
+  .works__cards {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .works__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .works__text, .works__title, .works__subtitle {
+    text-align: center;
+  }
+  .works__btn {
+    margin-top: 50px;
+    margin-left: 80px;
+  }
+}
 .footer {
   padding: 50px 150px;
   margin-top: 100px;
@@ -444,10 +491,21 @@ path:hover {
   fill: #fdd6ba;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 450px) {
   .footer {
     flex-direction: column;
     gap: 50px;
+  }
+  .footer__logo {
+    width: 220px;
+  }
+  .footer__list {
+    flex-direction: column;
+    width: 200px;
+    gap: 20px;
+  }
+  .footer__link {
+    text-align: center !important;
   }
 }
 .aboutIntro {

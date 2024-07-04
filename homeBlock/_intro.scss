@@ -41,6 +41,23 @@
   }
 }
 
+// @media only screen and (max-width: 768px) {
+//   .intro {
+//     background-position: center;
+//     border-radius: 20px;
+//     &__title {
+//       /* Great coffee made si */
+//       width: 330px;
+//       font-style: normal;
+//       font-weight: 900;
+//       font-size: 48px;
+//     }
+//     &__text {
+//       width: 400px;
+//     }
+//   }
+// }
+
 @media only screen and (max-width: 450px) {
   .intro {
     padding: 60px 50px;
@@ -73,20 +90,3 @@
     }
   }
 }
-
-// @media only screen and (max-width: 768px) {
-//   .intro {
-//     background-position: center;
-//     border-radius: 20px;
-//     &__title {
-//       /* Great coffee made si */
-//       width: 330px;
-//       font-style: normal;
-//       font-weight: 900;
-//       font-size: 48px;
-//     }
-//     &__text {
-//       width: 400px;
-//     }
-//   }
-// }
