@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.works__btn, .intro__btn {
+.summary__btn, .works__btn, .intro__btn {
   width: 217px;
   height: 56px;
   background: #66d2cf;
@@ -14,10 +14,10 @@
   border: none;
   transition: all 0.3s linear;
 }
-.works__btn:hover, .intro__btn:hover {
+.summary__btn:hover, .works__btn:hover, .intro__btn:hover {
   background: #3cb2ae;
 }
-.works__btn:active, .intro__btn:active {
+.summary__btn:active, .works__btn:active, .intro__btn:active {
   background: #a0efec;
 }
 
@@ -675,4 +675,198 @@ path:hover {
   .country__title {
     font-size: 32px;
   }
+}
+.drink {
+  margin-top: 159px;
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+}
+.drink__left {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.drink__box {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.drink__title {
+  /* 01 */
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  color: #0e8784;
+}
+.drink__subtitle {
+  /* Preferences */
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  color: #7c8085;
+  transition: all 0.3s linear;
+}
+.drink__subtitle:hover {
+  color: black;
+}
+.drink__right {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.drink__top {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.drink__top-title {
+  /* How do you drink you */
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+  color: #83888f;
+}
+.drink__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.drink__cards {
+  width: 228px;
+  height: 250px;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  padding: 30px;
+  transition: all 0.3s ease-in-out;
+}
+.drink__cards:hover {
+  background-color: #fdd6ba;
+}
+.drink__cards:active {
+  background-color: #0e8784;
+}
+.drink__cards-title {
+  /* Capsule */
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  color: #333d4b;
+}
+.drink__cards-text {
+  /* Compatible with Nesp */
+  margin-top: 30px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #333d4b;
+}
+
+.complatedIntro {
+  margin-top: 100px;
+  padding: 134px 90px;
+  background-image: url("../img/threepage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+.complatedIntro__title {
+  /* Create a plan */
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  /* identical to box height, or 100% */
+  color: #fefcf7;
+}
+.complatedIntro__text {
+  margin-top: 50px;
+  /* Build a subscription */
+  width: 445px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #fefcf7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.complated__works {
+  margin-top: 177px;
+  background-color: #2c343e;
+  padding: 90px 85px;
+  border-radius: 20px;
+}
+
+.complated__title {
+  color: whitesmoke;
+}
+
+.summary {
+  margin-top: 50px;
+  width: 760px;
+  height: 300px;
+  padding: 30px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  background-color: #2c343e;
+  border-radius: 20px;
+  margin-right: 220px;
+}
+.summary__title {
+  /* Order Summary */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  text-transform: uppercase;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.summary__text {
+  /* “I drink my coffee a */
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+  /* or 167% */
+  color: #ffffff;
+}
+.summary__span {
+  color: #0e8784;
+}
+.summary__btn {
+  margin-top: 50px;
+  margin-right: 220px;
+}
+
+.summary__main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }/*# sourceMappingURL=style.css.map */
