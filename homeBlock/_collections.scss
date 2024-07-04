@@ -40,25 +40,25 @@
   }
 }
 
-// @media only screen and (max-width: 450px) {
-//   .collection {
-//     margin-top: 100px;
-//     flex-direction: column;
-//     gap: 0;
-//     &__card {
-//       margin-top: 100px;
-//     }
-//   }
-// }
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 450px) {
   .collection {
+    margin-top: 100px;
     flex-direction: column;
     gap: 0;
-
     &__card {
-      flex-direction: row;
       margin-top: 100px;
     }
   }
 }
+
+// @media only screen and (max-width: 768px) {
+//   .collection {
+//     flex-direction: column;
+//     gap: 0;
+
+//     &__card {
+//       flex-direction: row;
+//       margin-top: 100px;
+//     }
+//   }
+// }

@@ -85,60 +85,60 @@
   }
 }
 
-// @media only screen and (max-width: 450px) {
-//   .choose {
-//     height: 900px;
-//     padding: 20px 0;
-//     justify-content: start;
-
-//     &__cards {
-//       flex-direction: column;
-//       top: 300px;
-//     }
-//     &__card {
-//       width: 300px;
-//     }
-//     &__title {
-//       /* Why choose us? */
-
-//       font-family: "Fraunces 9pt";
-//       font-style: normal;
-//       font-weight: 900;
-//       font-size: 28px;
-//       line-height: 28px;
-//       /* identical to box height, or 100% */
-//       text-align: center;
-
-//       color: #fefcf7;
-//     }
-//     &__text {
-//       width: 90%;
-//     }
-//   }
-// }
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 450px) {
   .choose {
+    height: 900px;
+    padding: 20px 0;
+    justify-content: start;
+
     &__cards {
       flex-direction: column;
+      top: 300px;
     }
     &__card {
-      box-sizing: border-box;
-      padding: 20px;
-      flex-direction: row;
-      gap: 50px;
-      justify-content: space-around;
+      width: 300px;
+    }
+    &__title {
+      /* Why choose us? */
+
+      font-family: "Fraunces 9pt";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 28px;
+      line-height: 28px;
+      /* identical to box height, or 100% */
+      text-align: center;
+
+      color: #fefcf7;
+    }
+    &__text {
       width: 90%;
-      height: 180px;
-      text-align: start;
-    }
-    &__box {
-      display: flex;
-      flex-direction: column;
-      align-items: start;
-    }
-    &__subtext {
-      text-align: start;
     }
   }
 }
+
+// @media only screen and (max-width: 768px) {
+//   .choose {
+//     &__cards {
+//       flex-direction: column;
+//     }
+//     &__card {
+//       box-sizing: border-box;
+//       padding: 20px;
+//       flex-direction: row;
+//       gap: 50px;
+//       justify-content: space-around;
+//       width: 90%;
+//       height: 180px;
+//       text-align: start;
+//     }
+//     &__box {
+//       display: flex;
+//       flex-direction: column;
+//       align-items: start;
+//     }
+//     &__subtext {
+//       text-align: start;
+//     }
+//   }
+// }
