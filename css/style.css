@@ -832,7 +832,7 @@ path:hover {
   gap: 50px;
   background-color: #2c343e;
   border-radius: 20px;
-  margin-right: 220px;
+  margin-right: 180px;
 }
 .summary__title {
   /* Order Summary */
@@ -862,7 +862,7 @@ path:hover {
 }
 .summary__btn {
   margin-top: 50px;
-  margin-right: 220px;
+  margin-right: 180px;
 }
 
 .summary__main {
