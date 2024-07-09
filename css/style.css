@@ -392,29 +392,6 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
-  .works__cards {
-    gap: 20px;
-    align-items: start;
-  }
-  .works__hr {
-    width: 200px;
-  }
-  .works__text {
-    width: 223px;
-  }
-  .works__subtitle {
-    /* Pick your coffee */
-    width: 200px;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 28px;
-  }
-  .works__box {
-    width: 30px;
-    height: 30px;
-  }
-}
-@media only screen and (max-width: 450px) {
   .works {
     margin-top: 800px;
   }
@@ -491,7 +468,7 @@ path:hover {
   fill: #fdd6ba;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 768px) {
   .footer {
     flex-direction: column;
     gap: 50px;
@@ -836,6 +813,21 @@ path:hover {
   color: #333d4b;
 }
 
+@media only screen and (max-width: 768px) {
+  .drink__left {
+    display: none;
+  }
+  .drink__bottom {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .drink__cards {
+    width: 100%;
+  }
+  .drink__top-title {
+    font-size: 25px;
+  }
+}
 .complatedIntro {
   margin-top: 100px;
   padding: 134px 90px;
@@ -880,6 +872,14 @@ path:hover {
   color: whitesmoke;
 }
 
+@media only screen and (max-width: 768px) {
+  .complatedIntro__title {
+    font-size: 50px;
+  }
+  .complatedIntro__text {
+    width: 100%;
+  }
+}
 .summary {
   margin-top: 50px;
   width: 760px;
@@ -927,4 +927,14 @@ path:hover {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+}
+
+@media only screen and (max-width: 768px) {
+  .summary {
+    width: 100%;
+    margin-right: 0;
+  }
+  .summary__btn {
+    margin-right: 150px;
+  }
 }/*# sourceMappingURL=style.css.map */

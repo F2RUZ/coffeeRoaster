@@ -84,35 +84,7 @@
   }
 }
 
-
 @media only screen and (max-width: 768px) {
-  .works {
-    &__cards {
-      gap: 20px;
-      align-items: start;
-    }
-    &__hr {
-      width: 200px;
-    }
-    &__text {
-      width: 223px;
-    }
-    &__subtitle {
-      /* Pick your coffee */
-      width: 200px;
-      font-style: normal;
-      font-weight: 900;
-      font-size: 28px;
-    }
-    &__box {
-      width: 30px;
-      height: 30px;
-    }
-  }
-}
-
-
-@media only screen and (max-width: 450px) {
   .works {
     margin-top: 800px;
     &__sircle {
@@ -143,3 +115,29 @@
     }
   }
 }
+
+// @media only screen and (max-width: 768px) {
+//   .works {
+//     &__cards {
+//       gap: 20px;
+//       align-items: start;
+//     }
+//     &__hr {
+//       width: 200px;
+//     }
+//     &__text {
+//       width: 223px;
+//     }
+//     &__subtitle {
+//       /* Pick your coffee */
+//       width: 200px;
+//       font-style: normal;
+//       font-weight: 900;
+//       font-size: 28px;
+//     }
+//     &__box {
+//       width: 30px;
+//       height: 30px;
+//     }
+//   }
+// }
